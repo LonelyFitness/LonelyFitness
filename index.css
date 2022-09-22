@@ -9,19 +9,28 @@ background-color: rgb(0, 0, 0, 0.8);
     padding-left: 0px;
 margin-top: -8px;
 margin-left: -8px;
-background-color: rgb(0, 0, 0,1);
+background-color: rgb(0, 0, 0);
 
 
 }
 
 .p-head{position: absolute;
-color: wheat;
+color: rgb(10, 251, 34);
 font-size: 30px;
 left: 1150px;
-top: 50px;
+top: 30px;
 transform: rotate(45deg);
 pointer-events: none;
+filter: drop-shadow(0 1px 3px);
 
+}
+
+.p-head2{
+    position: absolute;
+    z-index: 100;
+    color: rgba(0, 0, 0, 0.756);
+    left: 530px;
+    font-size: 24px;
 }
 
 .logo{
@@ -68,7 +77,7 @@ pointer-events: none;
 
 .lema{
    padding-left: 100px;
-    color: rgb(255, 255, 255,0.6);
+    color: rgba(255, 255, 255);
     z-index:97;
     position: absolute;
     top: -120px;
@@ -96,6 +105,8 @@ left: 350px;
 filter: drop-shadow(0 1px 3px);
 z-index: 95;
 
+
+
 }
 
 .sect-tabs a:hover{
@@ -104,7 +115,10 @@ animation-name: animacion-tab;
 animation: animacion-tab;
 animation-duration: 2s;
 animation-iteration-count: infinite;
+
 }
+
+
 
 
 .lineablanca1{
@@ -129,14 +143,46 @@ animation-iteration-count: infinite;
 }
 
 
+.l1{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    left: 530px;
+    filter: drop-shadow(0 1px 3px);
+}
 
+.l2{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    left: 710px;
+    filter: drop-shadow(0 1px 3px);
+}
 
+.l3{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    left: 880px;
+    filter: drop-shadow(0 1px 3px);
+}
 
-
-
-
-
-
+.l4{
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    left: 1000px;
+    filter: drop-shadow(0 1px 3px);
+    
+}
 
 
 
