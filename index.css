@@ -5,12 +5,22 @@ background-color: rgb(0, 0, 0, 0.8);
 
 .header{
     width:1536px;
-    height: 200px;
+    height: 185px;
     padding-left: 0px;
 margin-top: -8px;
 margin-left: -8px;
 background-color: rgb(0, 0, 0,1);
 
+
+}
+
+.p-head{position: absolute;
+color: wheat;
+font-size: 30px;
+left: 1150px;
+top: 50px;
+transform: rotate(45deg);
+pointer-events: none;
 
 }
 
@@ -22,8 +32,16 @@ background-color: rgb(0, 0, 0,1);
   position: relative;
   top: 30px;
   cursor: pointer;
+  z-index: 100;
+  pointer-events: none;
 
+}
 
+.logo2{
+    position: absolute;
+    transform: scaleX(-1);
+    left: 1380px;
+    pointer-events: none;
 }
 
 .head-content {
@@ -33,18 +51,28 @@ background-color: rgb(0, 0, 0,1);
     position: relative;
     top: -10px;
     left: 100px;
+    z-index: 99;
 
 }
 
 .page-name{
-    color: rgb(255,255,255,0.3);
+    color: rgba(255, 255, 255);
     filter: drop-shadow(0 1px 3px);
+    z-index: 98;
+    font-size: 25px;
+    position: absolute;
+    top: -100px;
+    pointer-events: none;
 
 }
 
 .lema{
    padding-left: 100px;
     color: rgb(255, 255, 255,0.6);
+    z-index:97;
+    position: absolute;
+    top: -120px;
+    left: 200px;
     
 }
 
@@ -52,6 +80,7 @@ background-color: rgb(0, 0, 0,1);
 
 .sect-tabs{
     height: 45px;
+    z-index: 96;
 }
 
 
@@ -65,6 +94,7 @@ width: 80px;
 margin-left: 80px;
 left: 350px;
 filter: drop-shadow(0 1px 3px);
+z-index: 95;
 
 }
 
@@ -76,6 +106,27 @@ animation-duration: 2s;
 animation-iteration-count: infinite;
 }
 
+
+.lineablanca1{
+
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    
+}
+.lineablanca2{
+
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    
+}
+.lineablanca3{
+
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
 
 
 
@@ -177,6 +228,7 @@ animation-iteration-count: infinite;
 .p1{
     position:absolute;
    left: 100px;
+   pointer-events: none;
 
 }
 
